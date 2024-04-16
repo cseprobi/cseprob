@@ -1,0 +1,22 @@
+header {
+
+    background-color: #9A8C98;
+    display: flex;
+    justify-content: flex-end;
+    nav {
+        height: 10dvh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width:20%;
+        align-self: flex-end;
+        a{
+            color: #F2E9E4;
+            text-decoration: none;
+            &:active{
+                color:#4A4E69;
+            }
+        }
+    }
+}
